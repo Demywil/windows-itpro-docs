@@ -251,7 +251,7 @@ Follow these steps to run the PS script:
 1. Open an elevated Windows PowerShell prompt and run the following commands. These commands are the same regardless of whether you are using a VM or a physical device:
 
     ```powershell
-    md c:\HWID
+    cd c:\HWID
     Set-Location c:\HWID
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
     Install-Script -Name Get-WindowsAutopilotInfo -Force
